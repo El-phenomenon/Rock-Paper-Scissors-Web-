@@ -1,5 +1,6 @@
 # Rock-Paper-Scissors-Web-
 A browser-based version of the classic Rock, Paper, Scissors game built using HTML, CSS, and JavaScript.
+It features an interactive user interface.
 
 How to play:
 Player 1 enters their name and choice; Rock, Paper, or Scissors.
