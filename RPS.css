@@ -1,0 +1,42 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    margin-left:220px;
+}
+#container{
+    width:60%;
+    background-color:white;
+    margin-left:170px;
+    padding-bottom:250px;
+    background-color:darkcyan;
+}
+#name1{
+    margin-left:30px;
+}
+#choice1{
+    margin-left:30px;
+}
+#name2{
+    margin-left:30px;
+}
+#choice2{
+    margin-left:30px;
+}
+#playeronename{
+    margin-top: 20px;
+}
+#playertwoname{
+    margin-top: 40px;
+}
+button{
+    margin-left:100px;
+    margin-top:30px;
+    font-weight: bold;
+}
+#text{
+    margin-left: 250px;
+    margin-top:60px;
+    font-weight: bold;
+    font-size: 20px;
+}

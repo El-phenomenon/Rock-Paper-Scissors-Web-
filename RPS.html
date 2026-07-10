@@ -1,0 +1,37 @@
+<!doctype html>
+<html id='start'>
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html,charset=utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1"/>
+<head>
+    <title>Rock paper and Scissors</title>
+    <link rel="stylesheet" type='text/css' href='RPS.css'>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='RPS.js'></script>
+    <h1>Welcome to the Rock,paper and Scissors game!!!</h1>
+    <div id='container'>
+        <form name='game'>
+        <label id='name1'>Player one name:</label>
+        <input type="text" id="playeronename"placeholder="Player one name">
+        <label id='choice1'>Choose rock,paper or scissors:</label>
+        <select  id="cars1">
+            <option value="Rock">Rock</option>
+            <option value="Paper">Paper</option>
+            <option value="Scissors">Scissors</option>
+         </select>
+         <br><label id='name2'>Player two name:</label>
+         <input type="text" id="playertwoname" placeholder="Player two name">
+         <label id='choice2'>Choose rock,paper or scissors:</label>
+         <select id="cars2">
+             <option value="Rock">Rock</option>
+             <option value="Paper">Paper</option>
+             <option value="Scissors">Scissors</option>
+            </select>
+            <br><button type="button" onclick="play(cars1,cars2)">Play</button>
+        </form>
+        <div id="text"></div>
+    </div>
+</body>
+</html>
